@@ -1,42 +1,42 @@
-# ETL-Process
-📌 Overview
+******ETL-Process******
+**** Overview****
 
-This project focuses on cleaning, processing, and enriching raw uber data to make it analysis-ready. The dataset contains ride details such as distance fare, and payment method. The main goal is to ensure the data is consistent, accurate, and structured for downstream tasks like analytics, reporting, or machine learning.
+This project focuses on cleaning, processing, and enriching raw Uber ride data to make it analysis-ready. The dataset includes details such as ride distance, fare, and payment method. The goal is to ensure the data is consistent, accurate, and structured for analytics, reporting, or machine learning tasks.
 
-Steps Performed
+**** Steps Performed****
 
-****Data Loading****
+**1. Data Loading**
 
-Imported the dataset into a Pandas DataFrame for manipulation.
+Imported the dataset into a Pandas DataFrame.
 
-Handling Missing Values
+**2. Handling Missing Values**
 
-Replaced missing values in numerical columns (e.g., ride distance, fare) with the column median.
+Replaced missing values in numerical columns (e.g., ride distance, fare) with the median.
 
-Replaced missing values in categorical columns (e.g., payment type, ride status) with the column mode.
+Replaced missing values in categorical columns (e.g., payment type, ride status) with the mode.
 
-****Feature Engineering****
+**3. Feature Engineering**
 
-Created a new feature Ride_Category based on ride distance:
+Created a new column Ride_Category based on ride distance:
 
-No category → Distance = 0
+No category → 0 km
 
 Short → 0–5 km
 
 Medium → 5–15 km
 
 Long → 15–50 km
-**
-**Validation****
 
-Verified data types of all columns.
+**4. Validation**
 
-Checked and confirmed there were no remaining null values.
+Verified column data types.
 
-Checked for consistency across ratings, cancellations, and payment methods.
+Confirmed no remaining null values.
 
-****📊 Tools & Libraries****
+Ensured consistency across ratings, cancellations, and payment methods.
 
-Python 
+** Tools & Libraries**
+
+Python
 
 Pandas
