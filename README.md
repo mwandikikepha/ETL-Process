@@ -4,7 +4,7 @@ Overview
 
 This project focuses on cleaning, processing, and enriching raw Uber ride data to make it analysis-ready. The dataset includes details such as ride distance, fare, and payment method. The goal is to ensure the data is consistent, accurate, and structured for analytics, reporting, or machine learning tasks.
 
-**** Steps Performed****
+## Steps Performed
 
 **1. Data Loading**
 
@@ -36,8 +36,12 @@ Confirmed no remaining null values.
 
 Ensured consistency across ratings, cancellations, and payment methods.
 
-Tools & Libraries
+## Tools & Libraries used
 
 Python
 
 Pandas
+
+PostgreSQL
+
+SQLAlchemy
