@@ -5,7 +5,7 @@ This project focuses on cleaning, processing, and enriching raw uber data to mak
 
 Steps Performed
 
-**Data Loading**
+****Data Loading****
 
 Imported the dataset into a Pandas DataFrame for manipulation.
 
@@ -15,7 +15,7 @@ Replaced missing values in numerical columns (e.g., ride distance, fare) with th
 
 Replaced missing values in categorical columns (e.g., payment type, ride status) with the column mode.
 
-**Feature Engineering**
+****Feature Engineering****
 
 Created a new feature Ride_Category based on ride distance:
 
@@ -26,8 +26,8 @@ Short → 0–5 km
 Medium → 5–15 km
 
 Long → 15–50 km
-
-**Validation**
+**
+**Validation****
 
 Verified data types of all columns.
 
@@ -35,7 +35,8 @@ Checked and confirmed there were no remaining null values.
 
 Checked for consistency across ratings, cancellations, and payment methods.
 
-**📊 Tools & Libraries**
+****📊 Tools & Libraries****
+
 Python 
 
 Pandas
