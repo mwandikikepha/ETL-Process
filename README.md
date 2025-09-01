@@ -3,7 +3,7 @@
 
 This project focuses on cleaning, processing, and enriching raw uber data to make it analysis-ready. The dataset contains ride details such as distance fare, and payment method. The main goal is to ensure the data is consistent, accurate, and structured for downstream tasks like analytics, reporting, or machine learning.
 
-🔧 Steps Performed
+Steps Performed
 
 Data Loading
 Imported the dataset into a Pandas DataFrame for manipulation.
